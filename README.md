@@ -1,0 +1,2 @@
+Dla podanych z wejœcia: naturalnej n >= 1, koñców a i b przedzia³u [a,b], oraz zestawu wartoœci yi, zi, 0 <= i <= n, przygotowaæ wêz³y równoodleg³e xi = a + ih, 0 <= i <= n, gdzie h = (b – a) / n i wypisaæ w postaci Newtona wielomian H stopnia k = 2n +1 taki, ¿e H(xi) = yi, Hi'(xi) = zi, 0 <= i <= n. 
+Nastêpnie tyle razy, ile zechce u¿ytkownik wczytaæ liczbê t nale¿y do R ró¿n¹ od wêz³ów i wyznaczyæ wartoœci H(t) oraz H'(t).

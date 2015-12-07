@@ -9,11 +9,15 @@ for x0 in x
 end for
 
 while last(t).length >1
-  Lt = last(t)
-  NT = []
-  for I in range(1, Lt.length-1)
-    TN = # do fancy computing here
-    NT.push(TN)
+  lt = last(t)
+  nt = []
+  for i in range(1, lt.length-1)
+    xn = x[i]-x[i-1]
+    tn = (lt[i-1]*lt[i])/xn unless xn == 0
+    tn = pochodna
+    nt.push(tn)
   end for
-
+  t.push(nt)
 end while
+
+require printer
